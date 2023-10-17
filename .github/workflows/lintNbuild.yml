@@ -21,7 +21,8 @@ jobs:
         run: npm run test --if-present
       - name: Lint
         run: npm run lint
-      - name: Build
-        run: npm run build
       - name: check dependecies
         run: npm outdated
+      - name: Build
+        run: npm run build
+
