@@ -21,4 +21,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: sirracuga/devops_u1:nextjs-docker
+          tags: sirracuga/devops_u2:nextjs-docker
